@@ -1,0 +1,21 @@
+{
+  "name": "ProyectoDespliegueHospital",
+  "version": "1.0.0",
+  "description": "Proyecto de Despliegue de Hospital",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Miguel Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
