@@ -193,12 +193,12 @@ label#menu-inicio-label > span::after {
   content: " Inicio"; 
 }
 
-label#menu-articulos-label > span::after {
-  content: " Artículos"; 
+label#menu-altas-label > span::after {
+  content: " Altas"; 
 }
 
-label#menu-clientes-label > span::after {
-  content: " Clientes"; 
+label#menu-bajas-label > span::after {
+  content: " Bajas"; 
 }
 
 
