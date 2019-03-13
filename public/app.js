@@ -175,7 +175,9 @@ function json2table(collection, jsonData, classes) {
 <button class="insertar" title="Insertar" onclick="
     insertar('${collection}',  { 
         ${colNames[0]}: document.getElementById('${collection}.${colNames[0]}').value,
-        ${colNames[1]}: document.getElementById('${collection}.${colNames[1]}').value
+        ${colNames[1]}: document.getElementById('${collection}.${colNames[1]}').value,
+        ${colNames[2]}: document.getElementById('${collection}.${colNames[2]}').value,
+        ${colNames[3]}: document.getElementById('${collection}.${colNames[3]}').value
     }) ">
 <span>✏️</span>
 </button>
